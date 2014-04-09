@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true">
+	    
+	    <Button 
+	        android:id="@+id/bn1"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/connect"
+	        android:textSize="24dip"
+	        android:layout_margin="6dip"
+	        android:gravity="center"/>
+	    
+	    <Button 
+	        android:id="@+id/bn2"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/disconnect"
+	        android:textSize="24dip"
+	        android:layout_margin="6dip"
+	        android:gravity="center"/>
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="3"
+	    android:background="#FFFFFF"
+	    android:layout_marginBottom="6dip">
+	    
+	    <EditText
+	        android:id="@+id/ed1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="20dip"
+	        android:textColor="#FFFF00"
+	        android:background="@drawable/bodor"
+	        android:minLines="6"
+	        android:gravity="left|top"/>
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="3"
+	    android:background="#FFFFFF"
+	    android:layout_marginTop="6dip">
+	    
+	    <EditText 
+	        android:id="@+id/ed2"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:textSize="20dip"
+	        android:textColor="#FFFF00"
+	        android:background="@drawable/bodor"
+	        android:minLines="6"
+	        android:gravity="left|top"/>
+	    
+	    <Button 
+	        android:id="@+id/bn3"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/send"
+	        android:textSize="24dip"
+	        android:layout_marginLeft="3dip"
+	        android:layout_marginRight="3dip"
+	        android:layout_marginTop="80dip"
+	        android:layout_marginBottom="80dip"
+	        android:gravity="center"/>
+	    
+	</LinearLayout>
+    
+</LinearLayout>
